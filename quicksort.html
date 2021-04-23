@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="F:\sortingproject\web GUI\css\style.css">
+	<title>Quick Sort</title>
+</head>
+<body>
+<header>
+  <h2>Design & Analysis of Algorithm</h2>
+  <h3>Quick Sort</h3>
+</header>
+
+
+
+
+<hr style="height:2px;border-width:0;color:gray;background-color:gray">
+<section>
+  <nav>
+  	
+<ul><li><a href="F:\sortingproject\web GUI\sidebar\sort.html"><h4>About Sorting Algorithms</h4></a></li>
+  <li><a href="F:\sortingproject\web GUI\sidebar\mergesort.html"><h4>Merge Sort</h4></a></li>
+  <li><a href="F:\sortingproject\web GUI\sidebar\heapsort.html"><h4>Heap Sort</h4></a></li>
+  <li><a href="F:\sortingproject\web GUI\sidebar\selectionsort.html"><h4>Selection Sort</h4></a></li>
+  <li><a href="F:\sortingproject\web GUI\sidebar\insertionsort.html"><h4>Insertion Sort</h4></a></li>
+  <li><a href="F:\sortingproject\web GUI\sidebar\bubblesort.html"><h4>Bubble Sort</h4></a></li>
+  <li><a href="F:\sortingproject\web GUI\sidebar\quicksort.html"><h4>Quick Sort</h4></a></li>
+  <li><a href="F:\sortingproject\web GUI\sidebar\quick3.html"><h4>Quick Sort (Quick sort using 3 medians)<h4></a></li>
+    <li><a href="F:\sortingproject\web GUI\sidebar\Compare.html"><h4>Compare algorithms using graph<h4></a></li></ul></nav>	<article>
+    <h1> What is Quick Sort?</h1>
+    <ul><li><p>Quick sort is a highly efficient sorting algorithm and is based on partitioning of array of data into smaller arrays. A large array is partitioned into two arrays one of which holds values smaller than the specified value, say pivot, based on which the partition is made, and another array holds values greater than the pivot value.</p></li></ul>
+    <h1>Algorithm(Pivot):</h1>
+    <ul><li>Step 1: Choose the highest index value has pivot </li>
+    	<li>Step 2:  Take two variables to point left and right of the list excluding pivot</li>
+    	<li>Step 3:  Left points to the low index</li>
+      <li>Step 4:  Right points to the high</li>
+      <li>Step 5:  While value at left is less than pivot move right</li>
+      <li>Step 6:  While value at right is greater than pivot move left</li>
+      <li>Step 7:  If both step 5 and step 6 does not match swap left and right</li>
+      <li>Step 8:  If left ≥ right, the point where they met is new pivot</li>
+    </ul>
+<h1>Algorithm:</h1>
+<ul><li>Step 1: Make the right-most index value pivot</li>
+  <li>Step 2: Partition the array using pivot value</li>
+  <li>Step 3: Quicksort left partition recursively</li>
+  <li>Step 4: Quicksort right partition recursively</li></ul>
+<h1>Space Complexity: O(n)</h1>
+<h1>Time Complexity:</h1>
+<ul><li>Best Time Complexity:  O(n log n)</li>
+    <li>Average Time Complexity: O(n log n)</li>
+    <li>Worst Time Complexity: O(n2) </li>
+</ul>
+<h1>Code Editor:</h1>
+<p>Here the code is already written in python we just have to click on play button to get sorted array and execution time of algorithm:</p>
+<br><iframe src="https://trinket.io/embed/python/1d7a41ed2a" width="100%" height="600" frameborder="0" marginwidth="0" marginheight="0" allowfullscreen></iframe></br>
+  </article>
+</section>
+
+<footer>
+  <p>Developed By: Vishwa Naik</p>
+   <p>  UTA ID:1001871311</p>
+</footer>
+
+</body>
+</html>
